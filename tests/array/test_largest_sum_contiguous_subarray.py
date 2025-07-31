@@ -9,3 +9,4 @@ from src.array.largest_sum_contiguous_subarray import max_subarray_sum
 ])
 def test_max_subarray_sum(input, expected):
     assert max_subarray_sum(input) == expected
+    
