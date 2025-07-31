@@ -7,3 +7,4 @@
 | [Program for array rotation](https://www.geeksforgeeks.org/dsa/array-rotation/) | [Solution](src/array/program_for_array_rotation.py) |
 | [Trapping Rain Water](https://www.geeksforgeeks.org/dsa/trapping-rain-water/) | [Solution](trapping_rain_water.py) |
 | [Count pairs with given sum](https://www.geeksforgeeks.org/dsa/count-pairs-with-given-sum/) | [Solution](count_pairs_with_given_sum.py) |
+| [Find the subarray with least average](https://www.geeksforgeeks.org/dsa/find-subarray-least-average/) | [Solution](find_subarray_least_average.py) |
