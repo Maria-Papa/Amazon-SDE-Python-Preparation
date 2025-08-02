@@ -1,13 +1,18 @@
 from typing import List
 
 
-def max_subarray_sum(input: List) -> int:
-    print(f"Finding max subarray sum of: {input}")
+# Kadane's Algorithm
+# Time: O(n), Space: O(1)
+def max_subarray_sum(arr: List[int]) -> int:
+    n = len(arr)
 
-    maxEnding = maxSum = input[0]
+    if n < 1:
+        raise ValueError("Invalid input: array must have at least one element")
 
-    for i in range (1, len(input)):
-        maxEnding = max(maxEnding + input[i], input[i])
-        maxSum = max(maxSum, maxEnding)
+    max_ending = max_sum = arr[0]
 
-    return maxSum
+    for i in range (1, n):
+        max_ending = max(max_ending + arr[i], arr[i])
+        max_sum = max(max_sum, max_ending)
+
+    return max_sum

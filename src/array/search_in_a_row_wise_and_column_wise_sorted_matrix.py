@@ -1,10 +1,15 @@
 from typing import List
 
 
-def is_integer_present(x: int, mat: List[List[int]]) -> bool:
-    print(f"x = {x}, mat = {mat}")
+# Eliminating rows or columns
+# Time: O(n + m), Space: O(1)
+def search_in_sorted_matrix(x: int, mat: List[List[int]]) -> bool:
+    n = len(mat)
 
-    rows, cols = len(mat), len(mat[0])
+    if n < 1:
+        return False
+
+    rows, cols = n, len(mat[0])
     row, col = 0, cols - 1
 
     while row < rows and col >= 0:

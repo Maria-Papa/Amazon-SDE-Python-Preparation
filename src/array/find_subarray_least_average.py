@@ -1,7 +1,9 @@
-from typing import List
+from typing import List, Tuple
 
 
-def find_subarray_least_avg(arr: List[int], k: int) -> List[int]:
+# Sliding Window
+# Time: O(n), Space: O(1)
+def find_subarray_least_avg(arr: List[int], k: int) -> Tuple[int, int]:
     arr_length = len(arr)
 
     if arr_length < k or k == 0:
@@ -17,4 +19,4 @@ def find_subarray_least_avg(arr: List[int], k: int) -> List[int]:
             min_sum = current_sum
             start_index = i - k + 1
 
-    return arr[start_index:start_index + k]
+    return (start_index, start_index + k - 1)

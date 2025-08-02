@@ -1,11 +1,9 @@
 from typing import List
 
 
-# Dictionary - Time Complexity = O(n), Space Complexity = O(n)
+# Dictionary
+# Time: O(n), Space: O(n)
 def count_pairs(arr: List[int], target: int) -> int:
-    if sum(arr) < target:
-        return 0
-    
     occurencies = {}
     count = 0
 

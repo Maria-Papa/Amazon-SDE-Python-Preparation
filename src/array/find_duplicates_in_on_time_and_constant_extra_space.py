@@ -1,7 +1,8 @@
 from typing import List
 
 
-# Hashmap - Time Complexity = Space Complexity = O(n)
+# Hashmap
+# Time: O(n), Space: O(n)
 def find_duplicates_1(n: int, arr: List[int]) -> List[int]:
     duplicates = {}
     result = []
@@ -15,7 +16,8 @@ def find_duplicates_1(n: int, arr: List[int]) -> List[int]:
 
     return result
 
-# Set - Time Complexity = Space Complexity = O(n)
+# Set
+# Time: O(n), Space: O(n)
 def find_duplicates_2(n: int, arr: List[int]) -> List[int]:
     duplicates = set()
     result = set()
@@ -28,15 +30,14 @@ def find_duplicates_2(n: int, arr: List[int]) -> List[int]:
 
     return sorted(list(result))
 
-# Auxilary Array - Time Complexity = Space Complexity = O(n)
+# Auxilary Array
+# Time: O(n), Space: O(n)
 def find_duplicates_3(n: int, arr: List[int]) -> List[int]:
     duplicates = [0] * n
     result = []
 
     for num in arr:
         duplicates[num] += 1
-
-    print(duplicates)
 
     for i in range(n):
         if duplicates[i] > 1:

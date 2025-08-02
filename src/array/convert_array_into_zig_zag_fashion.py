@@ -1,8 +1,9 @@
 from typing import List
 
 
-# Flag - Time Complexity = O(n), Space Complexity = O(1)
-def convert(n: int, arr: List[int]) -> List[int]:
+# Flag
+# Time: O(n), Space: O(1)
+def convert_to_zig_zag(n: int, arr: List[int]) -> List[int]:
     flag = True
 
     for i in range(n - 1):

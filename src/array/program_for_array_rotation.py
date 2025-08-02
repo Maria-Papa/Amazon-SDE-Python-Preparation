@@ -1,7 +1,8 @@
 from typing import List
 
 
-# Time Complexity = Space Complexity = O(n)
+# Slicing
+# Time: O(n), Space: O(n)
 def array_rotate_1(arr: List[int], d: int) -> List[int]:
     length = len(arr)
     
@@ -13,7 +14,8 @@ def array_rotate_1(arr: List[int], d: int) -> List[int]:
 
     return [*arr[d:], *arr[:d]]
 
-# Time Complexity = O(n), Space Complexity = O(n)
+# Reversal Using Extra Arrays
+# Time: O(n), Space: O(n)
 def array_rotate_2(arr: List[int], d: int) -> List[int]:
     length = len(arr)
     
@@ -28,7 +30,7 @@ def array_rotate_2(arr: List[int], d: int) -> List[int]:
     return arr
 
 # Temporary Array
-# Time Complexity = O(1), Space Complexity = O(n)
+# Time: O(n), Space: O(n)
 def array_rotate_3(arr: List[int], d: int) -> List[int]:
     length = len(arr)
 
@@ -47,8 +49,8 @@ def array_rotate_3(arr: List[int], d: int) -> List[int]:
 
     return temp
 
-# Reversal Algorithm
-# Time Complexity = O(1), Space Complexity = O(n)
+# In-place Reversal Algorithm
+# Time: O(n), Space: O(1)
 def array_rotate_4(arr: List[int], d: int) -> List[int]:
     def reverse(a, start, end):
         while start < end:

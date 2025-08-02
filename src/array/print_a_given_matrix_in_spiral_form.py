@@ -1,14 +1,14 @@
 from typing import List
 
 
-def print_matrix_in_spiral(mat: List[List[int]]) -> List[int]:
+# Boundary Traversal
+# Time: O(m*n), Space: O(1)
+def spiral_order_traversal(mat: List[List[int]]) -> List[int]:
     if not mat or not mat[0]:
         return []
     
     result = []
     top, left, bottom, right = 0, 0, len(mat) - 1, len(mat[0]) - 1
-
-    print(f"top = {top}, left = {left}, bottom = {bottom}, right = {right}")
 
     while top <= bottom and left <= right:
 
