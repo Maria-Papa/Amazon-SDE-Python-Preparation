@@ -9,3 +9,5 @@
 | [Count pairs with given sum](https://www.geeksforgeeks.org/dsa/count-pairs-with-given-sum/) | [Solution](count_pairs_with_given_sum.py) |
 | [Find the subarray with least average](https://www.geeksforgeeks.org/dsa/find-subarray-least-average/) | [Solution](find_subarray_least_average.py) |
 | [Convert array into Zig-Zag fashion](https://www.geeksforgeeks.org/dsa/convert-array-into-zig-zag-fashion/) | [Solution](convert_array_into_zig_zag_fashion.py) |
+| [Find duplicates in an array](https://www.geeksforgeeks.org/dsa/find-duplicates-in-on-time-and-constant-extra-space/) | [Solution](find_duplicates_in_on_time_and_constant_extra_space.py) |
+| [Find a triplet that sum to a given value](https://www.geeksforgeeks.org/dsa/find-a-triplet-that-sum-to-a-given-value/) | [Solution](find_a_triplet_that_sum_to_a_given_value.py) |
