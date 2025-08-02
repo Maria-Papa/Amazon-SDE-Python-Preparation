@@ -8,3 +8,4 @@
 | [Trapping Rain Water](https://www.geeksforgeeks.org/dsa/trapping-rain-water/) | [Solution](trapping_rain_water.py) |
 | [Count pairs with given sum](https://www.geeksforgeeks.org/dsa/count-pairs-with-given-sum/) | [Solution](count_pairs_with_given_sum.py) |
 | [Find the subarray with least average](https://www.geeksforgeeks.org/dsa/find-subarray-least-average/) | [Solution](find_subarray_least_average.py) |
+| [Convert array into Zig-Zag fashion](https://www.geeksforgeeks.org/dsa/convert-array-into-zig-zag-fashion/) | [Solution](convert_array_into_zig_zag_fashion.py) |
