@@ -1,6 +1,7 @@
 import pytest
 from src.array.program_for_array_rotation import array_rotate_1, array_rotate_2, array_rotate_3
 
+
 @pytest.mark.parametrize("arr, d, expected", [
     ([1, 2, 3, 4, 5, 6], 2, [3, 4, 5, 6, 1, 2]),         # Basic rotation
     ([1, 2, 3], 0, [1, 2, 3]),                           # No rotation

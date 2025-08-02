@@ -1,6 +1,7 @@
 import pytest
 from src.array.count_pairs_with_given_sum import count_pairs
 
+
 @pytest.mark.parametrize("arr, target, expected", [
     ([1, 5, 7, -1, 5], 6, 3),       # (1,5)x2, (7,-1)
     ([1, 1, 1, 1], 2, 6),           # All combinations of (1,1)

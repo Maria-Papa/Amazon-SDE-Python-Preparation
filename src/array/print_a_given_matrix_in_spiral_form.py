@@ -6,7 +6,7 @@ from typing import List
 def spiral_order_traversal(mat: List[List[int]]) -> List[int]:
     if not mat or not mat[0]:
         return []
-    
+
     result = []
     top, left, bottom, right = 0, 0, len(mat) - 1, len(mat[0]) - 1
 
@@ -30,7 +30,7 @@ def spiral_order_traversal(mat: List[List[int]]) -> List[int]:
 
         # Bottom to Top
         if left <= right:
-            for row in range(bottom, top - 1, - 1):
+            for row in range(bottom, top - 1, -1):
                 result.append(mat[row][left])
             left += 1
 

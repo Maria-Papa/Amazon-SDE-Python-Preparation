@@ -1,6 +1,7 @@
 import pytest
 from src.array.print_a_given_matrix_in_spiral_form import spiral_order_traversal
 
+
 @pytest.mark.parametrize("mat, expected", [
     # Regular square matrix
     (
@@ -53,4 +54,3 @@ from src.array.print_a_given_matrix_in_spiral_form import spiral_order_traversal
 ])
 def test_spiral_order_traversal(mat, expected):
     assert spiral_order_traversal(mat) == expected
-    

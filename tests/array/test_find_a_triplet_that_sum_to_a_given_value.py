@@ -1,6 +1,7 @@
 import pytest
 from src.array.find_a_triplet_that_sum_to_a_given_value import find_triplet_sum
 
+
 @pytest.mark.parametrize('arr, target, expected', [
     ([1, 4, 45, 6, 10, 8], 13, True),   # One matching triplet
     ([1, 2, 4, 3, 6, 7], 10, True),     # Multiple matches possible

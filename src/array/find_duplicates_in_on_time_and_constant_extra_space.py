@@ -16,6 +16,7 @@ def find_duplicates_1(n: int, arr: List[int]) -> List[int]:
 
     return result
 
+
 # Set
 # Time: O(n), Space: O(n)
 def find_duplicates_2(n: int, arr: List[int]) -> List[int]:
@@ -29,6 +30,7 @@ def find_duplicates_2(n: int, arr: List[int]) -> List[int]:
             duplicates.add(num)
 
     return sorted(list(result))
+
 
 # Auxilary Array
 # Time: O(n), Space: O(n)

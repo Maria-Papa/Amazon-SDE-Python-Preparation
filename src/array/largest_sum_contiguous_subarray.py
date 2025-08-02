@@ -11,7 +11,7 @@ def max_subarray_sum(arr: List[int]) -> int:
 
     max_ending = max_sum = arr[0]
 
-    for i in range (1, n):
+    for i in range(1, n):
         max_ending = max(max_ending + arr[i], arr[i])
         max_sum = max(max_sum, max_ending)
 

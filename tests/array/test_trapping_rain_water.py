@@ -1,6 +1,7 @@
 import pytest
 from src.array.trapping_rain_water import max_water
 
+
 @pytest.mark.parametrize("arr, expected", [
     ([2, 1, 5, 3, 1, 0, 4], 9),  # Multiple valleys
     ([3, 0, 1, 0, 4, 0, 2], 10), # Traps in mid

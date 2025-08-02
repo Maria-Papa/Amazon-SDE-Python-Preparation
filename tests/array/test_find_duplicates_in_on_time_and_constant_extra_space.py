@@ -3,6 +3,7 @@ from src.array.find_duplicates_in_on_time_and_constant_extra_space import (
     find_duplicates_1, find_duplicates_2, find_duplicates_3
 )
 
+
 @pytest.mark.parametrize('n, arr, expected', [
     (7, [1, 2, 3, 6, 3, 6, 1], [1, 3, 6]), # Multiple duplicates
     (5, [1, 2, 3, 4, 3], [3]),             # Single duplicate

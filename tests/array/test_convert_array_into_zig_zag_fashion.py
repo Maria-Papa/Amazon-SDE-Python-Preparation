@@ -1,6 +1,7 @@
 import pytest
 from src.array.convert_array_into_zig_zag_fashion import convert_to_zig_zag
 
+
 @pytest.mark.parametrize("n, arr, expected", [
     (7, [4, 3, 7, 8, 6, 2, 1], [3, 7, 4, 8, 2, 6, 1]), # Many swaps needed
     (4, [1, 4, 3, 2], [1, 4, 2, 3]),                   # One swap needed

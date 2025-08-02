@@ -15,7 +15,7 @@ def find_triplet_sum(arr: List[int], target: int) -> bool:
         while left_index < right_index:
             if arr[left_index] + arr[right_index] == target_remaining:
                 return True
-            
+
             if arr[left_index] + arr[right_index] < target_remaining:
                 left_index += 1
             else:
